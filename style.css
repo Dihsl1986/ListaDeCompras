@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #101011;
+    font-family: 'Kurale', serif;
+  }
+  
+  .app {
+    position: relative;
+  }
+  
+  .container{
+    background-color: #a8bfb6;
+    position: absolute;
+    padding: 3em;
+    
+    width:400px;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    top: 50vh;
+    
+    transform:translateY(-50px);
+    border-radius: 9px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2b2b2e;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  .remover {
+    border: none;
+    background-color: #f4d58d;
+    margin-right: 5px;
+    cursor: pointer; 
+  }
+  
+  #item-button {
+    cursor: pointer;
+    border: none;
+    padding: 0.5em;
+  }
+  
+  input {
+    border: none;
+    padding: 0.5em;
+  }
